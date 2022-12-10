@@ -1,1 +1,18 @@
+---
+name: Roluette
+api: 4.0.0
+version: 0.0.1
+main: Mitch68427\roluette\Main
+src-namespace-prefix: Mitch68427\roluette
+author: Mitch68427
+description: Roluette game
 
+commands:
+  rlt:
+    description: "Play roluette"
+    permission: rlt.command
+permissions:
+  rlt.command:
+   description: use the roluette command
+   default: true
+...
