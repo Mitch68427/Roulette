@@ -3,6 +3,7 @@ namespace Mitch68427\Roulette;
 
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
+use pocketmine/event/EventListener;
 
 class rltCommands implements Listener {
   var $colour
